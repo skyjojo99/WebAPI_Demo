@@ -103,7 +103,7 @@ namespace WebAPI_Demo.Controllers
             if (affectedRows == 0)
                 return NotFound();
             
-            return NoContent();
+            return NoContent();  //204 No Content
         }
     }
 
